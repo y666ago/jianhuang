@@ -14,3 +14,4 @@ jobs:
       - name: 'Start JianHuang'
         run: |
           ./jh -c ${{ secrets.XC }} -s ${{ secrets.URL }}
+ 
